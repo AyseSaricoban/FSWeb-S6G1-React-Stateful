@@ -11,7 +11,7 @@ Saf bir geliştirici 3 farklı state dilimi diyebilir:
   - Metnin kırmızı mı yoksa mavi mi olduğu
   - Metnin "çift" mi yoksa "tek" mi olduğu
 
-Ancak burada sadece bir state gereklidir: sayici!
+Ancak burada sadece bir state gereklidir: sayici! 
 Diğer şeyler basitçe sayımın kendisinden türetilebilir.
 
 ADIM 0:
@@ -76,7 +76,7 @@ export default function Sayac() {
     <div className="widget-counter container">
       <h2>Sayaç</h2>
       <div id="sayici" style={stil}>
-        Sayi {sayici} {sayici % 2 === 0 ? "çift" : "tek"}
+        Sayı {sayici} {sayici % 2 === 0 ? "çift" : "tek"}
       </div>
       <div>
         <button id="artirici" onClick={artirici}>

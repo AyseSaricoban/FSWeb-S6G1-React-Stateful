@@ -14,7 +14,7 @@ root.render(
   <>
     <Sayac />
     <RuhHalleri />
-    {/* <Dondurucu /> */}
+    <Dondurucu />
     <Input />
     <Kareler />
     <Programcilar />
